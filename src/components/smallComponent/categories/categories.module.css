@@ -1,0 +1,31 @@
+.categoriesLayout{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.categoriesBox{
+    width: 170px;
+    height: 170px;
+    /* border: 2px solid red; */
+    background-color:#1f3050; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #d7dadf;
+    cursor: pointer;
+}
+.categoriesBox:hover{
+    background-color:#b8c9e9 ; 
+    color: #1d1e20;
+    transition: background-color .7s ease;
+}
+
+/* --bg: #0b1529;
+--bgSoft: #1f3050; */

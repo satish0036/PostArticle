@@ -1,0 +1,134 @@
+  /* SINGLE START */
+  
+  .singleHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* border: 2px solid red; */
+  }
+
+  
+  .singleHeadTexts {
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+    /* border: 2px solid rgb(14, 11, 11); */
+  }
+  .singleHeadImg {
+    flex: 1;
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: cover;
+
+  }
+  
+  .singleHeadTitle {
+    font-size: 40px;
+  }
+  
+  .singleHeadDesc {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .singleHeadDetail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .singleAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .singleCategory {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+    font-size: 14px;
+  }
+  
+ 
+  
+  .singleBottom {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px;
+    margin-top: 50px; */
+  }
+  
+  .singleContent {
+    flex: 3;
+    font-size: 20px;
+    line-height: 32px;
+    /* border: 2px solid red; */
+  }
+  
+  .singleContent p,
+  .singleContent h1,
+  .singleContent h2,
+  .singleContent h3 {
+    margin: 20px 0px;
+  }
+  
+  .singleContent img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .singleContent pre {
+    width: 100%;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .singleRightBar {
+    flex: 1;
+  }
+  @media (max-width: 768px) {
+    .singleHead {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      /* border: 2px solid red; */
+    }
+    .singleHeadImg {
+      flex: 1;
+      max-height: 340px;
+      max-width: 100%;
+      object-fit: cover;
+      /* border: 2px solid red; */
+    }
+  }
+  .timedatebox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(231, 12, 12);
+    color: var(--textSoft);
+    font-size: 14px;
+    cursor: pointer;
+  }
+ 
+  
+  /* SINGLE END */

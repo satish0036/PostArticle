@@ -1,0 +1,81 @@
+/* NAVBAR START */
+  
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg);
+    /* border: 2px solid red; */
+  }
+  
+ 
+  
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+  }
+  
+  .searchButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .toggle {
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--bgSoft);
+    /* border: 0.5px solid var(--textSoft); */
+    padding: 5px;
+    position: relative;
+  }
+  
+  .ball {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    background-color: var(--textSoft);
+    border: 1px solid var(--bgSoft);
+  }
+  .ballLight{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--textSoft);
+    border: 1px solid var(--bgSoft);
+    right:0;
+  }
+  .indiaarticle{
+    font-size: 40px !important;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+ 
+  @media (max-width: 720px) {
+    .indiaarticle{
+      font-size: 25px !important;
+    }
+  }
+  
+
+
+  
+  /* NAVBAR END */

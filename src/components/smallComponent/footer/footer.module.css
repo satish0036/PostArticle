@@ -1,0 +1,24 @@
+/* FOOTER START */
+  
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 14px;
+    /* border: 2px solid red; */
+  }
+  
+  .social {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .socialIconSize{
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* FOOTER END */
+  
